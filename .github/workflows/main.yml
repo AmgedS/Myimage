@@ -17,7 +17,7 @@ on:
 
 
             - name: "login to docker" 
-              run: docker login --username amgedsalah11 --password dckr_pat_t1FW2NYnPn9edaEK0hXkhnKvpbQ 
+              run: docker login --username ${{secrets.DOCKER_USERNAME}} --password ${{secrets.DOCKER_TOKEN}} 
 
 
              
