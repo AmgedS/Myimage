@@ -8,16 +8,16 @@ on:
         build: 
           runs_on: ubuntu-latest  
 
-          steps:
-            - name: 'before' 
-              run: ls
+          
+          
+            
 
             - users: actions/checkout@v3
 
 
 
-            - name: 'before' 
-              run: ls
+            - name: "login to docker" 
+              run: docker login --username amgedsalah11 --password dckr_pat_t1FW2NYnPn9edaEK0hXkhnKvpbQ 
 
 
              
