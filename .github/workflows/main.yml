@@ -9,8 +9,16 @@ on:
           runs_on: ubuntu-latest  
 
           steps:
-            - name: 'printing folder contents' 
+            - name: 'before' 
               run: ls
+
+            - users: actions/checkout@v3
+
+
+
+            - name: 'before' 
+              run: ls
+
 
              
               
