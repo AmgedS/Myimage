@@ -9,9 +9,9 @@ on:
           runs_on: ubuntu-latest  
 
           steps:
-            - name: 'testing github actions' 
-              run: pwd
+            - name: 'printing folder contents' 
+              run: ls
 
-            - name: 'testing printing' 
-              run: echo Amged
-                
+             
+              
+
